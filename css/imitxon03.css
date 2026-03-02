@@ -1,0 +1,116 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #e5e5e5;
+}
+
+.sidebar {
+    width: 360px;
+    background: #f3f0e6;
+    padding: 20px;
+}
+
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.menu-icon {
+    font-size: 26px;
+    cursor: pointer;
+}
+
+.auth a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: #4c8c4a;
+}
+
+.auth span {
+    color: #555;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.menu li {
+    padding: 10px 0;
+    color: #555;
+    cursor: pointer;
+}
+
+.menu li:hover {
+    color: #2e7d32;
+}
+
+.logo {
+    text-align: center;
+    color: #2e7d32;
+    margin: 20px 0;
+}
+
+.logo h2 {
+    margin: 0;
+}
+
+.logo p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.contacts {
+    margin: 15px 0;
+    color: #444;
+}
+
+.contacts .time {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.email p {
+    margin: 8px 0;
+    color: #555;
+}
+
+.call-btn {
+    background: #ff6a00;
+    border: none;
+    color: white;
+    padding: 12px;
+    width: 100%;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 15px 0;
+}
+
+.call-btn:hover {
+    background: #e55d00;
+}
+
+.search-bar {
+    background: #2f3f3f;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+}
+
+.search-bar input {
+    flex: 1;
+    padding: 8px;
+    border: none;
+    border-radius: 20px;
+    margin: 0 10px;
+    outline: none;
+}
+
+.search-icon {
+    color: white;
+}

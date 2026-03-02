@@ -1,0 +1,270 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family: Arial, sans-serif;
+}
+
+body{
+  background:#eee;
+  display:flex;
+  justify-content:center;
+  padding:20px 0;
+}
+
+.phone{
+  width:360px;
+  background:#fff;
+}
+
+
+
+.top-bar{
+  background:#f3f6e7;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  padding:10px 12px;
+  font-size:13px;
+  color:#7c7c7c;
+}
+
+.burger{
+  font-size:22px;
+}
+
+.top-links span{
+  margin-left:10px;
+}
+
+.header{
+  background:#fbfbe8;
+  padding:15px 12px;
+  display:flex;
+  gap:10px;
+}
+
+.logo img{
+  width:120px;
+}
+
+.contacts{
+  flex:1;
+  font-size:13px;
+  color:#444;
+}
+
+.contacts .phone{
+  margin-bottom:4px;
+}
+
+.time{
+  margin:6px 0 10px;
+  color:#777;
+}
+
+.btn{
+  background:#ff7a00;
+  color:#fff;
+  border:none;
+  border-radius:20px;
+  padding:10px 14px;
+  font-size:13px;
+  cursor:pointer;
+}
+
+
+
+.search-bar{
+  background:#2f3b3b;
+  display:flex;
+  align-items:center;
+  gap:10px;
+  padding:10px;
+}
+
+.burger.dark{
+  color:white;
+}
+
+.search-bar input{
+  flex:1;
+  padding:8px 12px;
+  border-radius:20px;
+  border:1px solid #777;
+  background:transparent;
+  color:#fff;
+  outline:none;
+}
+
+
+
+.breadcrumb{
+  padding:12px;
+  font-size:14px;
+  color:#777;
+}
+
+.breadcrumb span{
+  margin-right:6px;
+}
+
+.green{
+  color:#4caf50;
+}
+
+
+
+.content{
+  padding:10px 14px 25px;
+}
+
+.content h2{
+  color:#4caf50;
+  margin-bottom:10px;
+}
+
+.content p{
+  font-size:14px;
+  line-height:1.5;
+  color:#555;
+  margin-bottom:12px;
+}
+
+.container {
+    max-width: 700px;
+    margin: 40px auto;
+    background: #fff;
+    padding: 40px;
+}
+
+.title {
+    color: #2e8b57;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.advantages {
+    list-style: none;
+    padding: 0;
+}
+
+.advantages li {
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 18px;
+}
+
+.advantages li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 8px;
+    width: 12px;
+    height: 12px;
+    background-color: #2e8b57;
+    border-radius: 50%;
+}
+
+
+.container {
+    width: 380px;
+    margin: auto;
+    background: #fff;
+}
+
+.content {
+    padding: 20px;
+}
+
+.content h2 {
+    color: #2e7d32;
+    font-size: 20px;
+}
+
+.list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.list > li {
+    margin: 8px 0;
+    font-weight: bold;
+    color: #2e7d32;
+}
+
+.sub-list {
+    list-style: circle;
+    margin-left: 20px;
+    color: #444;
+    font-weight: normal;
+}
+
+.content p {
+    font-size: 14px;
+    color: #555;
+    line-height: 1.5;
+}
+
+.footer {
+    background: #2f3e3c;
+    color: #cfd8dc;
+    padding: 25px 20px;
+}
+
+.footer h3 {
+    color: #4caf50;
+    border-bottom: 1px solid #4caf50;
+    padding-bottom: 5px;
+    font-size: 16px;
+}
+
+.footer-grid {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+    font-size: 14px;
+}
+
+.footer ul li {
+    margin: 6px 0;
+}
+
+.contacts i {
+    margin-right: 8px;
+}
+
+.payment {
+    margin-top: 20px;
+}
+
+.cards img {
+    width: 60px;
+    margin-right: 10px;
+    background: #fff;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.copyright {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.copyright h2 {
+    color: #4caf50;
+    margin-bottom: 10px;
+}
